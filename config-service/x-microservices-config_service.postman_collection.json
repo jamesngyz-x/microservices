@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "22ffb450-9e09-499a-8f01-0397b9f588a4",
+		"name": "Config Service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get User Service Config",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{config_base_url}}/user-service/default/master",
+					"host": [
+						"{{config_base_url}}"
+					],
+					"path": [
+						"user-service",
+						"default",
+						"master"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "1d09f6d3-eebc-4d1e-badb-d72047fb5b21",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "c83e991a-bcf9-4fde-bcf7-ce2b8ad9c4dc",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "a81ba5e9-86f1-4c38-b133-3d4f7114da00",
+			"key": "config_base_url",
+			"value": "http://localhost:8888",
+			"type": "string"
+		}
+	],
+	"protocolProfileBehavior": {}
+}
