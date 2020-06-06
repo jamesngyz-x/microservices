@@ -31,6 +31,24 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Get Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{user_base_url}}/v1/users",
+					"host": [
+						"{{user_base_url}}"
+					],
+					"path": [
+						"v1",
+						"users"
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"event": [
@@ -57,7 +75,7 @@
 	],
 	"variable": [
 		{
-			"id": "f37da131-8218-4c5a-b410-267f5bab9d5b",
+			"id": "ff5d04b8-22be-4a26-8bad-5ff36d95b8ad",
 			"key": "user_base_url",
 			"value": "http://localhost:8080",
 			"type": "string"

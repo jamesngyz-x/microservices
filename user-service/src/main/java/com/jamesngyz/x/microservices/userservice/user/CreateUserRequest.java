@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 class CreateUserRequest {
-
-    private String name;
-
+	
+	private String name;
+	
 }
